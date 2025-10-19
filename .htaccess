@@ -1,0 +1,5 @@
+# Redireciona todas as requisições para o index.php (URL amigável).
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

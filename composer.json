@@ -1,0 +1,26 @@
+{
+
+    "name": "fsn/mvc",
+
+    "description": "Estrutura MVC simples em PHP puro",
+
+    "type": "project",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Felipe S Neves",
+            "email": "neves.felipesantos@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=8.0"
+    }
+
+}
