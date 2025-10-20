@@ -1,6 +1,6 @@
 <?php
 
-namespace App\core;
+namespace App\Core;
 
 class Rotas {
 
@@ -13,7 +13,7 @@ class Rotas {
 
         $this->tratarURL($urlInformada);
 
-        $diretorioController = "App\controllers\\" . $this->controller;
+        $diretorioController = "App\Controllers\\" . $this->controller;
 
         if ( !class_exists($diretorioController) ) {
             die("Hei dev, você esqueceu de criar a controller " . $this->controller);
